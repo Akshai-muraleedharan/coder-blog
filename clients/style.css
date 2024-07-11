@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playwrite+HU:wght@100..400&display=swap');
+
+body{
+    font-family: "Mukta", sans-serif !important;
+    
+}
+
+.logo{
+    border: 2px solid;
+    padding: 0px 2px !important;
+    border-radius: 4px;
+}
+
+.card_border{
+    box-shadow: 1px 1px 4px -3px black !important;
+    max-width: 550px;
+}
+
+.card_header{
+    border-bottom: none !important;
+   
+}
