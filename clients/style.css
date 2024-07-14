@@ -20,3 +20,49 @@ body{
     border-bottom: none !important;
    
 }
+
+.valid-feedback{
+    display: block !important;
+    height: 25px  !important;
+    text-align: end;
+    font-size: 14px !important;
+    visibility: hidden;
+    color: #f53b57;
+    width: 100%;
+}
+
+.valid_feedbackunset{
+    
+    color: #f53b57;
+    visibility: unset;
+    text-align: end;
+    height: 25px !important;
+   
+}
+
+
+.form-group.success input {
+    border-color: #05c46b;
+    margin-top: 0px !important;
+   
+  }
+
+
+  .form-group.error input {
+    border-color: #f53b57;
+  }
+
+
+ .pass_check{ 
+    position: absolute;
+    right: 20px;
+    top: 45px; }
+
+  @media screen and (max-width: 767px) {
+    .ptag{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 13px !important;
+    }
+  }
